@@ -10,10 +10,14 @@ let uzvaretajuSkaits = 3;
 
 let rindas = document.querySelector('.rindas');
 //rindas.innerHTML = 'hello';
+var e = document.getElementById("skaits");
 
+alert(e);
 function drosaParole(){
     var parole = '';
-    for(let i=0; i<10;i++){
+    var result = e.options[e.selectedIndex].value;
+    var skaitsIzvelne = parseInt(result);
+    for(let i=0; i<skaitsIzvelne;i++){
         let mR = randFunc(alfMazie.length);
         let lR = randFunc(alfLielie.length);
         let cR = randFunc(cipari.length);

@@ -1,0 +1,31 @@
+{
+apakstips	string
+example: hidroksīds
+Vielas apakštips, piemēram - sāls, skābe, spirts, lakmusa papīrs
+
+daudzums	number
+example: 50
+Vielas daudzums vienā komplektā dotajās mērvienībās
+
+id	integer($int64)
+komentari	string
+example: Šķīdums izvedots un sapildīts 2020.09.23
+Papildus informācija par vielu
+
+mervienibas	string
+example: ml
+Mērvienības kādās mērīts vielas daudzums
+
+nosaukums	string
+example: NaOH šķīdums 10%
+Vielas nosaukums, formula, % (šķīduma gadījumā)
+
+skaits	integer
+example: 45
+Vielas komplektu skaits
+
+tips	string
+example: reaģents
+Vielas tips, piemēram - reaģents, katalizators, indikators, šķīdinātājs
+
+}
